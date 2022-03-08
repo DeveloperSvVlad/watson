@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="robots" content="">
+  <link rel="short icon" href="">
+  <link rel="stylesheet" href="libs/swiper.min.css">
+  <script src="https://kit.fontawesome.com/fe530b5d32.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="libs/choices.min.css">
+  <link rel="stylesheet" href="libs/lightgallery.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>О нас</title>
+</head>
+<body>
+  <div class="wrapper">
+  <!-- ?Подключение Header -->
+  <!-- Header -->
+<header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-row">
+          <div class="header__social social">
+            <div class="social__row">
+              <div class="social__text">Социальные сети:</div>
+              <div class="social__wrapper">
+                <a href="#" class="social__item"><span class="icon-facebook"></span></a>
+                <a href="#" class="social__item"><span class="icon-instagramm"></span></a>
+                <a href="#" class="social__item"><span class="icon-telegramm"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="header__info dropdown">
+              <div class="dropdown__row">
+                <div class="dropdown__item">
+                    <div class="dropdown__item-content arrow">
+                      <div class="dropdown__item-icon"><span class="icon-user-cabinet"></span></div>
+                      <div class="dropdown__item-text">Личный кабинет</div>
+                    </div>
+                    <div class="dropdown__drop drop-menu">
+                        <a href="authentication.html" class="drop-menu__item">Авторизация</a>
+                        <a href="authentication.html" class="drop-menu__item">Регистрация</a>
+                    </div>
+                </div>
+                <div class="dropdown__item">
+                  <div class="dropdown__item-content arrow">
+                    <div class="dropdown__item-icon"><img src="img/languages/ru.svg" alt=""></div>
+                    <div class="dropdown__item-text uppercase">Rus</div>
+                  </div>
+                  <div class="dropdown__drop drop-menu">
+                    <a href="#" class="drop-menu__item uppercase"><img src="img/languages/uz.svg" alt="">Uz</a>
+                    <a href="#" class="drop-menu__item uppercase"><img src="img/languages/usa.svg" alt="">eng</a>
+                  </div>
+                </div>
+                <div class="dropdown__item">
+                  <div class="dropdown__item-content arrow">
+                    <div class="dropdown__item-text uppercase">Uzs</div>
+                  </div>
+                    <div class="dropdown__drop drop-menu">
+                      <form action="#">
+                        <button class="drop-menu__item uppercase"><span>$</span>Usd</button>
+                        <button class="drop-menu__item uppercase"><span>₽</span>Rub</button>
+                      </form>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div class="header__center">
+        <div class="container">
+          <div class="header__center-row">
+            <a class="header__logo logo" href="index.html">
+              <img src="img/logo.svg" width="191" height="72" alt="Watson">
+            </a>
+            <div class="header__search search">
+                <form class="search__wrapper" action="#">
+                  <input class="search__input" type="text"></input>
+                  <button class="search__btn"><span class="icon-search"></span></button>
+                </form>
+            </div>
+            <div class="header__shop shop">
+                <div class="shop__row">
+                    <div class="shop__item">
+                        <a href="#" class="shop__body">
+                            <div class="shop__icon"><span class="icon-heart"></span></div>
+                            <div class="shop__content">
+                                <div class="total-count">1</div>
+                                <div class="shop__text">Сохраненные</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="shop__item">
+                        <button class="shop__body js-open-basket">
+                          <div class="shop__icon"><span class="icon-cart"></span></div>
+                          <div class="shop__content">
+                              <div class="total-count">1</div>
+                              <div class="shop__text">Корзина</div>
+                          </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="burger burger--ind">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__bot header-mobile">
+      <div class="container">
+        <div class="header-mobile--ind">
+            <div class="header__bot-row">
+              <div class="header__catalog">
+                  <button class="header__catalog-btn js-catalog-toggle"><span class="icon-dashbord-icon"></span>Каталог товаров</button>
+              </div>
+              <nav class="header__nav menu">
+                <ul class="menu__list">
+                  <li class="menu__list-item"><a href="about.html" class="menu__list-link">О нас</a></li>
+                  <li class="menu__list-item"><a href="#" class="menu__list-link">Рассрочка</a></li>
+                  <li class="menu__list-item"><a href="delivery.html" class="menu__list-link">Доставка</a></li>
+                  <li class="menu__list-item"><a href="#footer-contacts" class="menu__list-link js-link-scroll">Контакты</a></li>
+                </ul>
+                <!-- Мобилка бургер -->
+                <div class="menu__mobile-content">
+                    <div class="menu__mobile-item">
+                      <div class="menu__mobile-cabinet dropdown">
+                        <div class="dropdown__row">
+                          <div class="dropdown__item">
+                            <div class="dropdown__item-content">
+                              <div class="dropdown__item-text">Личный кабинет</div>
+                            </div>
+                            <div class="dropdown__drop drop-menu">
+                                <a href="authentication.html" class="drop-menu__item">Авторизация</a>
+                                <a href="authentication.html" class="drop-menu__item">Регистрация</a>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__mobile-item">
+                      <div class="dropdown">
+                        <div class="dropdown__row">
+                          <div class="dropdown__item">
+                            <div class="dropdown__item-content arrow">
+                              <div class="dropdown__item-icon"><img src="img/languages/ru.svg" alt=""></div>
+                              <div class="dropdown__item-text uppercase">Rus</div>
+                            </div>
+                            <div class="dropdown__drop drop-menu">
+                              <a href="#" class="drop-menu__item uppercase"><img src="img/languages/uz.svg" alt="">Uz</a>
+                              <a href="#" class="drop-menu__item uppercase"><img src="img/languages/usa.svg" alt="">eng</a>
+                            </div>
+                          </div>
+                          <div class="dropdown__item">
+                            <div class="dropdown__item-content arrow">
+                              <div class="dropdown__item-text uppercase">Uzs</div>
+                            </div>
+                              <div class="dropdown__drop drop-menu">
+                                <form action="#">
+                                  <button class="drop-menu__item uppercase"><span>$</span>Usd</button>
+                                  <button class="drop-menu__item uppercase"><span>₽</span>Rub</button>
+                                </form>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu__mobile-item">
+                      <div class="menu__mobile-social social">
+                        <div class="social__row">
+                          <div class="social__wrapper">
+                            <a href="#" class="social__item"><span class="icon-facebook"></span></a>
+                            <a href="#" class="social__item"><span class="icon-instagramm"></span></a>
+                            <a href="#" class="social__item"><span class="icon-telegramm"></span></a>
+                          </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+<!-- Mega menu -->
+<div class="mega-menu">
+  <div class="mega-menu__wrapper">
+      <div class="mega-menu__inner">
+        <div class="mega-menu__body">
+            <div class="mega-menu__nav">
+                <ul class="mega-menu__list">
+                    <li><a class="tab-open opened" data-id="otopiteltexnika" href="#">Отопительная техника<span class="icon-arrow-small-right"></span></a></li>
+                    <li><a class="tab-open" data-id="nasosi" href="#">Насосы<span class="icon-arrow-small-right"></span></a></li>
+                </ul>
+            </div>
+            <div class="mega-menu__content">
+                  <div class="tab-content tab-active" data-id="otopiteltexnika">
+                      <div class="mega-menu__content-inner">
+                          <div class="mega-menu__item">
+                              <div class="mega-menu__column">
+                                <h3 class="mega-menu__title">Котлы</h3>
+                                <a href="#" class="menu-item__link">— Электрические</a>
+                                <a href="#" class="menu-item__link">— Настенные</a>
+                                <a href="#" class="menu-item__link">— Напольные</a>
+                              </div>
+                              <div class="mega-menu__column">
+                                <h3 class="mega-menu__title">Водонагреватели</h3>
+                                <a href="#" class="menu-item__link">— Косвенные водонагреватели</a>
+                                <a href="#" class="menu-item__link">— Газовые водонагреватели</a>
+                                <a href="#" class="menu-item__link">— Газовые колонки</a>
+                                <a href="#" class="menu-item__link">— Электрические водонагреватели</a>
+                              </div>
+                              <div class="mega-menu__column">
+                                <h3 class="mega-menu__title">Гидравлические разделители</h3>
+                                <a href="#" class="menu-item__link">— Распределительный коллектор с гидрострелкой</a>
+                              </div>
+                              <div class="mega-menu__column">
+                                <h3 class="mega-menu__title">Радиаторы</h3>
+                                <a href="#" class="menu-item__link">— Алюминиевые</a>
+                                <a href="#" class="menu-item__link">— Биметаллические</a>
+                                <a href="#" class="menu-item__link">— Стальные</a>
+                                <a href="#" class="menu-item__link">— Аксессуары</a>
+                              </div>
+                          </div>
+                          <div class="mega-menu__item">
+                            <div class="mega-menu__column">
+                              <h3 class="mega-menu__title">Теплый пол</h3>
+                              <a href="#" class="menu-item__link">— Нагревательные маты</a>
+                              <a href="#" class="menu-item__link">— Нагревательный пол</a>
+                              <a href="#" class="menu-item__link">— Терморегуляторы, датчики</a>
+                              <a href="#" class="menu-item__link">— Коллекторы</a>
+                              <a href="#" class="menu-item__link">— Комплектующие</a>
+                            </div>
+                            <div class="mega-menu__column">
+                              <h3 class="mega-menu__title">Комплектующие</h3>
+                              <a href="#" class="menu-item__link">— Автоматика и контрольно-измерительные приборы</a>
+                              <a href="#" class="menu-item__link">— Трёхходовые клапана</a>
+                              <a href="#" class="menu-item__link">— Расширительные баки</a>
+                              <a href="#" class="menu-item__link">— Гребенки</a>
+                              <a href="#" class="menu-item__link">— Дымоходы</a>
+                              <a href="#" class="menu-item__link">— Для газа</a>
+                            </div>
+                            <div class="mega-menu__column">
+                              <h3 class="mega-menu__title">Конвекторы</h3>
+                              <a href="#" class="menu-item__link">— Подпольные</a>
+                            </div>
+                            <div class="mega-menu__column">
+                              <h3 class="mega-menu__title">Запорная арматура</h3>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="tab-content" data-id="nasosi">
+                    <div class="mega-menu__content-inner">
+                      <div class="mega-menu__item">
+                          <div class="mega-menu__column">
+                            <h3 class="mega-menu__title">Насосы</h3>
+                            <a href="#" class="menu-item__link">— Электрические</a>
+                            <a href="#" class="menu-item__link">— Настенные</a>
+                            <a href="#" class="menu-item__link">— Напольные</a>
+                          </div>
+                          <div class="mega-menu__column">
+                            <h3 class="mega-menu__title">Водонагреватели</h3>
+                            <a href="#" class="menu-item__link">— Косвенные водонагреватели</a>
+                            <a href="#" class="menu-item__link">— Газовые водонагреватели</a>
+                            <a href="#" class="menu-item__link">— Газовые колонки</a>
+                            <a href="#" class="menu-item__link">— Электрические водонагреватели</a>
+                          </div>
+                          <div class="mega-menu__column">
+                            <h3 class="mega-menu__title">Гидравлические разделители</h3>
+                            <a href="#" class="menu-item__link">— Распределительный коллектор с гидрострелкой</a>
+                          </div>
+                          <div class="mega-menu__column">
+                            <h3 class="mega-menu__title">Радиаторы</h3>
+                            <a href="#" class="menu-item__link">— Алюминиевые</a>
+                            <a href="#" class="menu-item__link">— Биметаллические</a>
+                            <a href="#" class="menu-item__link">— Стальные</a>
+                            <a href="#" class="menu-item__link">— Аксессуары</a>
+                          </div>
+                      </div>
+                      <div class="mega-menu__item">
+                        <div class="mega-menu__column">
+                          <h3 class="mega-menu__title">Теплый пол</h3>
+                          <a href="#" class="menu-item__link">— Нагревательные маты</a>
+                          <a href="#" class="menu-item__link">— Нагревательный пол</a>
+                          <a href="#" class="menu-item__link">— Терморегуляторы, датчики</a>
+                          <a href="#" class="menu-item__link">— Коллекторы</a>
+                          <a href="#" class="menu-item__link">— Комплектующие</a>
+                        </div>
+                        <div class="mega-menu__column">
+                          <h3 class="mega-menu__title">Комплектующие</h3>
+                          <a href="#" class="menu-item__link">— Автоматика и контрольно-измерительные приборы</a>
+                          <a href="#" class="menu-item__link">— Трёхходовые клапана</a>
+                          <a href="#" class="menu-item__link">— Расширительные баки</a>
+                          <a href="#" class="menu-item__link">— Гребенки</a>
+                          <a href="#" class="menu-item__link">— Дымоходы</a>
+                          <a href="#" class="menu-item__link">— Для газа</a>
+                        </div>
+                        <div class="mega-menu__column">
+                          <h3 class="mega-menu__title">Конвекторы</h3>
+                          <a href="#" class="menu-item__link">— Подпольные</a>
+                        </div>
+                        <div class="mega-menu__column">
+                          <h3 class="mega-menu__title">Запорная арматура</h3>
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- Basket -->
+<div class="basket js-basket">
+  <div class="basket__inner">
+      <div class="basket__head">
+        <h3 class="basket__title title title-primary">Корзина</h3>
+        <button class="basket__close js-close-basket"><span class="icon-close"></span></button>
+      </div>
+      <div class="basket__content">
+          <div class="basket__content-items">
+            <div class="basket__item item-basket">
+              <button class="item-basket__remove"><span class="icon-close"></span></button>
+              <div class="item-basket__row">
+                <div class="item-basket__image">
+                  <img src="img/basket-image/basket-image-1.png" alt="" width="82" height="202">
+                </div>
+                <div class="item-basket__content">
+                    <a href="" class="item-basket__desc">Бойлер косвенного нагрева Hajdu STA 300 C</a>
+                    <div class="item-basket__count">Количество: <span>1</span></div>
+                    <div class="item-basket__price">
+                        <div class="price">6 850 000 <span>сум</span></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="basket__item item-basket">
+              <button class="item-basket__remove"><span class="icon-close"></span></button>
+              <div class="item-basket__row">
+                <div class="item-basket__image">
+                  <img src="img/basket-image/basket-image-2.png" alt="" width="82" height="202">
+                </div>
+                <div class="item-basket__content">
+                    <a href="" class="item-basket__desc">Газовый водонагреватель AO Smith 400л</a>
+                    <div class="item-basket__count">Количество: <span>1</span></div>
+                    <div class="item-basket__price">
+                        <div class="price">15 750 000 <span>сум</span></div>
+                    </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="basket__result result">
+            <div class="result__top">
+                <p>Итого</p>
+                <div class="result__total">
+                  <div class="price fw-600">22 600 000 <span>сум</span></div>
+                </div>
+            </div>
+            <div class="result__wrapper">
+                <a href="cart.html" class="result__btn btn btn--gray">Перейти в корзину</a>
+                <a href="order-check.html" class="result__btn btn">Оформить заказ</a>
+            </div>
+          </div>
+      </div>
+      <div class="basket-no-content" style="display: none;">
+        <p>Ваша корзина пустая</p>
+        <a href="#" class="basket__link btn">Перейти в каталог</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="popup popup-menu">
+    <div class="popup__wrapper">
+        <div class="popup__inner">
+          <div class="popup__body">
+            <button class="popup__btn-close"></button>
+            <div class="popup__content">
+
+            </div>
+          </div>
+        </div>
+    </div>
+</div> -->
+  <!-- ?Основной контент -->
+  <main class="main">
+    <!-- Section intro -->
+    <section class="intro bg-image" style="background-image: url(img/intro-image/intro-image-register.png);">
+        <div class="container intro__content">
+            <h2 class="intro__title">О нас</h2>
+            <p>Если вы хотите узнать о нашей компании то вы в правильном месте!</p>
+          </div>
+    </section>
+
+    <!-- Section about-us intro -->
+    <section class="about-us m-negative mb-100">
+        <div class="container">
+            <div class="about-us__row">
+                <div class="about-us__item">
+                    <div class="about-us__body">
+                        <div class="about-us__icon">
+                            <img src="img/about-us-image/instagramm.svg" alt="">
+                        </div>
+                        <div class="about-us__text">
+                            <h4 class="about-us__title text-gradient">Инстаграм</h4>
+                            <p>Подпишитесь на наш Инстаграм и следите за скидками, акциями</p>
+                        </div>
+                        <a href="#" class="about-us__link btn">Подписаться</a>
+                    </div>
+                </div>
+                <div class="about-us__item">
+                    <div class="about-us__body">
+                        <div class="about-us__icon">
+                            <img src="img/about-us-image/facebook.svg" alt="">
+                        </div>
+                        <div class="about-us__text">
+                            <h4 class="about-us__title text-dark-blue">Фейсбук</h4>
+                            <p>Подпишитесь на наш Фейсбук и следите за новыми поставками, новыми товарами</p>
+                        </div>
+                        <a href="#" class="about-us__link btn">Подписаться</a>
+                    </div>
+                </div>
+                <div class="about-us__item">
+                    <div class="about-us__body">
+                        <div class="about-us__icon">
+                            <img src="img/about-us-image/telegramm.svg" alt="">
+                        </div>
+                        <div class="about-us__text">
+                            <h4 class="about-us__title text-blue">Телеграм</h4>
+                            <p>Напишите нам в Телеграм и мы ответим на все ваши вопросы</p>
+                        </div>
+                        <a href="#" class="about-us__link btn">Написать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section block-content -->
+    <section class="block-content mb-100">
+        <div class="container">
+            <div class="block-content__item">
+                <div class="block-content__body">
+                    <div class="block-content__text">
+                        Повседневная практика показывает, что консультация с широким активом в значительной степени обуславливает создание существенных финансовых и административных условий. Разнообразный и богатый опыт укрепление и развитие структуры играет важную роль в формировании новых предложений. Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия.
+                    </div>
+                    <div class="block-content__image-wrap">
+                        <div class="block-content__image">
+                            <img src="img/about-us-image/about-us-image-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block-content__item">
+                <div class="block-content__body">
+                    <div class="block-content__text">
+                        Таким образом дальнейшее развитие различных форм деятельности требуют от нас анализа новых предложений. Идейные соображения высшего порядка, а также дальнейшее развитие различных форм деятельности играет важную роль в формировании систем массового участия. Задача организации, в особенности же укрепление и развитие структуры играет важную роль в формировании направлений прогрессивного развития.
+                    </div>
+                    <div class="block-content__image-wrap">
+                        <div class="block-content__image">
+                            <img src="img/about-us-image/about-us-image-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Section brand -->
+     <section class="brand brand--about mb-100">
+        <div class="container">
+            <div class="head mb-30">
+                <div class="head__row">
+                    <h3 class="title title-primary title--line">Бренды</h3>
+                    <div class="slider-arrow">
+                        <div class="swiper-button-prev slider-arrow-prev"><span class="icon-arrow-left"></span></div>
+                        <div class="swiper-button-next slider-arrow-next"><span class="icon-arrow-right"></span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="brand__slider">
+              <div class="swiper-container brand-slider-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brand__slider-slide">
+                            <img src="img/brand/brand-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="brand__slider-slide">
+                          <img src="img/brand/brand-2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="brand__slider-slide">
+                          <img src="img/brand/brand-3.png" alt="">
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <div class="brand__slider-slide">
+                        <img src="img/brand/brand-4.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__slider-slide">
+                      <img src="img/brand/brand-5.png" alt="">
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Section loyalty -->
+     <div class="loyalty mb-100">
+         <div class="container">
+            <div class="loyalty__row">
+                <div class="loyalty__image">
+                    <img src="img/about-us-image/loaylity.jpg" alt="">
+                </div>
+                <div class="loyalty__text">
+                    Товарищи! Новая модель организационной деятельности влечет за собой процесс внедрения и модернизации новых предложений. Повседневная практика показывает, что начало повседневной работы по формированию позиции способствует подготовки и реализации существенных финансовых и административных условий. Таким образом укрепление и развитие структуры представляет собой интересный эксперимент проверки форм развития. С другой стороны начало повседневной работы по формированию позиции требуют определения и уточнения систем массового участия. Разнообразный и богатый опыт укрепление и развитие структуры требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Не следует, однако забывать, что консультация с широким активом позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.
+                </div>
+            </div>
+         </div>
+     </div>
+    <!-- Section subscribe -->
+    <div class="subscribe mb-50">
+    <div class="container">
+        <div class="subscribe__row">
+            <div class="subscribe__text">
+                <h3 class="subscribe__title title title-others">Будьте в курсу</h3>
+                <p>Подпишитесь на последние обновления и узнавайте о новинках и специальных предложениях первыми</p>
+            </div>
+            <div class="subscribe__form form-subscribe">
+                <form action="#">
+                    <div class="form-subscribe__wrapper">
+                        <input class="form-subscribe__input" type="text" placeholder="Укажите ваш email">
+                        <button class="form-subscribe__btn">Подписаться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+  </main>
+
+  <!-- ?Подключение Footer -->
+  <footer class="footer" id="footer-contacts">
+    <div class="footer__wrapper">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__intro">
+                    <a href="index.html" class="footer__logo logo">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                    <p>Добро пожаловать в наш интернет-магазин «Watson D.J.»</p>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-row">
+                        <div class="footer__nav-column">
+                            <div class="footer__nav-column-body">
+                                <h2 class="footer__nav-title">Адрес</h2>
+                                <p>г. Ташкент, ул. Шота Руставели, 63</p>
+                            </div>
+                            <div class="footer__nav-column-body">
+                                <h2 class="footer__nav-title">Адрес</h2>
+                                <a href="tel:+998971599099" class="footer__nav-tel">+998 97 159 90 99</a>
+                                <a href="tel:+998712539900" class="footer__nav-tel">+998 71 253 99 00</a>
+                            </div>
+                            <div class="footer__nav-column-body">
+                                <h2 class="footer__nav-title">Наши социальные сети</h2>
+                                <div class="footer__social social">
+                                    <a href="#" class="social__item"><span class="icon-facebook"></span></a>
+                                    <a href="#" class="social__item"><span class="icon-instagramm"></span></a>
+                                    <a href="#" class="social__item"><span class="icon-telegramm"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__nav-column">
+                            <div class="footer__nav-column-body">
+                                <h2 class="footer__nav-title">Компания</h2>
+                                <ul class="footer__nav-column-list">
+                                <li><a href="about.html">О нас</a></li> 
+                                <li><a href="#">Оплата</a></li> 
+                                <li><a href="delivery.html">Доставка</a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__nav-column">
+                            <div class="footer__nav-column-body">
+                                <h2 class="footer__nav-title">Информация</h2>
+                                <ul class="footer__nav-column-list">
+                                    <li><a href="#">Рассрочка</a></li> 
+                                    <li><a href="#">Гарантия</a></li> 
+                                    <li><a href="#">Вакансии</a></li> 
+                                    <li><a href="#">Контакты</a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bot">
+        <div class="container">
+            <div class="footer__bot-row">
+                <p>watsondj.uz - Магазин отопительного оборудования Watson D.J. © 2021</p>
+                <div class="footer__payments payments">
+                    <div class="payments__row">
+                        <div class="payments__item">
+                            <div class="payments__body">
+                                <img src="img/payments/uzcard.png" alt="">
+                            </div>
+                        </div>
+                        <div class="payments__item">
+                            <div class="payments__body">
+                                <img src="img/payments/payme.png" alt="">
+                            </div>
+                        </div>
+                        <div class="payments__item">
+                            <div class="payments__body">
+                                <img src="img/payments/click.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+  
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="libs/choices.min.js"></script>
+<script src="libs/fslightbox.js"></script>
+<script src="libs/swiper.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
